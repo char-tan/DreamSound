@@ -31,7 +31,7 @@ MANIFEST
 outputs/*
 
 # Model files
-models/*
+models/*.pth
 
 # PyInstaller
 #  Usually these files are written by a python script from a template

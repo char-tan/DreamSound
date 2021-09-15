@@ -2,15 +2,17 @@
 
 This project is a fork of a [Pytorch DeepDream](https://github.com/gordicaleksa/pytorch-deepdream) implementation by [Aleksa Gordić](https://github.com/gordicaleksa) where I have applied the DeepDream algorithm to audio. VGG19 models were trained to classify mel spectrograms from two datasets; UrbanSounds8k and free-music-archive (small). These trained models are then used to "dream" audio features onto input mel spectrograms; like the original DeepDream this creates some interesting outputs! 
 
-**Note:** due to git lfs not supporting public forks, I have a separate [repo](https://github.com/char-tan/DreamSoundModels) where the required model files can be found. 
+**WARNING!** This code can produce some horrible / loud sounds, turn the volume down before listening to an output for the first time. 
+
+**Note:** due to git lfs not supporting public forks, I have a separate [repo](https://github.com/char-tan/DreamSoundModels) where the required model files can be found.
 
 ### Examples
 
-examples/ contains some example outputs, including the parameters that were used in each case.
+examples/ contains some example outputs, including the parameters that were used in each case. 
+
+**Note:** For completeness, I haven't cropped any of these wav files. Some of the ouroboros files end up "overcooked" (bad screeching sound).
 
 ### Usage
-
-**WARNING!** This code can produce some horrible / loud sounds, turn the volume down before listening to an output for the first time.
 
 Important parameters
 
@@ -23,7 +25,7 @@ Important parameters
 
 There is a tendency for ouroboros audio to eventually become "overcooked" (bad screeching sound), decreasing the number of iterations per clip can increase the length of ouroboros before this occurs. 
 
-Please explore the other parameters and see how they affect the output!
+Please explore the other parameters and see how they affect the output! I would love to hear clips generated with this project, I need to figure out a good way to receive them.
 
 ### Target Classes
 
