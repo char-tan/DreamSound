@@ -1,4 +1,4 @@
-### DreamSound - Audio DeepDream
+# DreamSound - Audio DeepDream
 
 This project is a fork of a [Pytorch DeepDream](https://github.com/gordicaleksa/pytorch-deepdream) implementation by [Aleksa Gordić](https://github.com/gordicaleksa) where I have applied the DeepDream algorithm to audio. VGG19 models were trained to classify mel spectrograms from two datasets; UrbanSounds8k and free-music-archive (small). These trained models are then used to "dream" audio features onto input mel spectrograms; like the original DeepDream this creates some interesting outputs! 
 
@@ -6,13 +6,13 @@ This project is a fork of a [Pytorch DeepDream](https://github.com/gordicaleksa/
 
 **Note:** due to git lfs not supporting public forks, I have a separate [repo](https://github.com/char-tan/DreamSoundModels) where the required model files can be found.
 
-### Examples
+## Examples
 
 examples/ contains some example outputs, including the parameters that were used in each case. 
 
 **Note:** For completeness, I haven't cropped any of these wav files. Some of the ouroboros files end up "overcooked" (bad screeching sound).
 
-### Usage
+## Usage
 
 Important parameters
 
@@ -27,7 +27,7 @@ There is a tendency for ouroboros audio to eventually become "overcooked" (bad s
 
 Please explore the other parameters and see how they affect the output! I would love to hear clips generated with this project, I need to figure out a good way to receive them.
 
-### Target Classes
+## Target Classes
 
 UrbanSounds8k - 10 classes
 
@@ -53,7 +53,7 @@ free-music-archive small - 8 classes
 6. electronic
 7. instrumental
 
-### Acknowledgements
+## Acknowledgements
 
 I developed this code from https://github.com/gordicaleksa/pytorch-deepdream, many thanks to gordicaleksa for the fantastic DeepDream implementation!
 
