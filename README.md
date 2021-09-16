@@ -1,5 +1,7 @@
 # DreamSound - Audio DeepDream
 
+https://user-images.githubusercontent.com/76977995/133623797-abfdad05-c1b7-43e6-9082-95c9b9164077.mp4
+
 This project is a fork of a [Pytorch DeepDream](https://github.com/gordicaleksa/pytorch-deepdream) implementation by [Aleksa Gordić](https://github.com/gordicaleksa) where I have applied the DeepDream algorithm to audio. VGG19 models were trained to classify mel spectrograms from two datasets; UrbanSounds8k and free-music-archive (small). These trained models are then used to "dream" audio features onto input mel spectrograms; like the original DeepDream this creates some interesting outputs! 
 
 **WARNING!** This code can produce some horrible / loud sounds, turn the volume down before listening to an output for the first time. 
